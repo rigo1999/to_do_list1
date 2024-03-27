@@ -1,0 +1,117 @@
+/* styles.css */
+.App {
+    margin-top:20px ;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.Todo {
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+    min-width: 50%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+button {
+    width: 70px;
+    height: 42px;
+    background-color: sandybrown;
+    border: 2px solid sandybrown;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 4px;
+    
+    margin-left: -5px;
+}
+
+.input {
+    border: 2px solid sandybrown;
+   
+    width: 340px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid sandybrown;
+  
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+  
+}
+
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.edit-task{
+    display: flex;
+    flex-direction: row;
+}
+#save{
+ background-color: green;
+  margin-right: 10px;
+   width: 70px;
+}
+
+
+#edit_in{
+    background-color: rgb(184, 184, 184);
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    width: 260px;
+    height: 35px;
+        border-radius: 4px;
+        text-align: center;
+        border: 2px solid sandybrown;
+        margin-right:10px ;
+}
+#tile{
+background-color: rgb(226, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 35px;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid sandybrown;
+    margin-right: 10px;
+}
+#cancel{
+    width: 70px;
+}
+.del_edi{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+#edit{
+    width: 70px
+}
+#delete{
+    background-color: red;
+margin-right: 10px;
+    width: 70px;
+}
