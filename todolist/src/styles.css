@@ -12,10 +12,11 @@
 .Todo {
     background-color: rgb(58, 56, 56);
     text-align: center;
-    min-width: 50%;
+    width: 50%;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 6px 10px;
     margin: auto;
+    border-radius: 4px;
 }
 
 ul {

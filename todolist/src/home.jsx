@@ -76,7 +76,7 @@ const TodoList = () => {
                             <div className='del_edi'>
                                     <div id='tile'>{todo.todo}</div>
                                 <button id='delete' onClick={() => handleDeleteTodo(todo.id)}>Delete</button>
-                                <button id='edit' onClick={() => handleEdit(todo.id)}>Edit</button>
+                                <button id='edit' onClick={( ) => handleEdit(todo.id)}>Edit</button>
                             </div>
                         )}
                     </li>
